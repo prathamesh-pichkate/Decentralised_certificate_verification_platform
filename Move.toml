@@ -1,0 +1,15 @@
+[package]
+name = "decentralised_certificate_verification_system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CertificateVerification="0xa58b6f01bc892ef47d2adc5e917ee6ac17fd9a1fe3f061b00ec741a6ce75b7fc"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
